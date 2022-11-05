@@ -31,7 +31,7 @@ class Persona:
         return self.sexo
 
 class Deportista:
-    def __init__(self, deporte = "Futbol", añosPracticando, **kwargs):
+    def __init__(self, añosPracticando, deporte = "Futbol", **kwargs):
         self.deporte = deporte
         self.añosPracticando = añosPracticando
         super().__init__(**kwargs)
